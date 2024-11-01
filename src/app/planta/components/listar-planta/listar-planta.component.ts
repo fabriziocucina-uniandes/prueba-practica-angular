@@ -21,4 +21,8 @@ export class ListarPlantaComponent implements OnInit {
       this.plantas = plantas;
     });
   }
+
+  getPlantsByType(tipo : string): number { 
+    return this.plantas.filter( planta => planta.tipo === tipo).length
+  }
 }
