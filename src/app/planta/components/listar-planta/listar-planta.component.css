@@ -1,0 +1,27 @@
+/* header */
+
+.header-title {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* image */
+
+.img-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 30vh;
+}
+
+.img-div{
+    border-top: black;
+    border-width: 20px;
+}
+
+.table thead th {
+    background-color: black !important;
+    color: #ffffff !important;
+  }
+  

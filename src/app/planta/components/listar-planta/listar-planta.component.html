@@ -1,3 +1,33 @@
-<p>
-  listar-planta works!
-</p>
+<div class="container-fluid vh-100 p-0 d-flex flex-column justify-content-center">
+  <h1 class="header-title mb-4">Vivero El Otoño</h1>
+  <div class="row h-50 img-div mb-0">
+    <div class="col-12">
+      <img src="/woods.png" class="img-fluid" alt="woods" style="object-fit: cover; height: 30vh;">
+    </div>
+  </div>
+  <div class="row justify-content-center mt-0 mb-4">
+    <div class="col-10">
+      <table class="table table-striped text-center mb-4">
+        <thead class="bg-dark text-light">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre Común</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Clima</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let planta of plantas; let i = index">
+            <th scope="row">{{ planta.id }}</th>
+            <td>{{ planta.nombre_comun }}</td>
+            <td>{{ planta.tipo }}</td>
+            <td>{{ planta.clima }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="text-center">
+    Contact us: +57 3102105253 - info&#64;viveroelotonio.com - &#64;viveroelotonio
+  </footer>  
+</div>

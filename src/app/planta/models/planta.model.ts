@@ -1,12 +1,12 @@
 export class Planta {
     constructor(
        public id: number,
-       public nombreComun: string,
-       public nombreCientifico: string,
+       public nombre_comun: string,
+       public nombre_cientifico: string,
        public tipo: string,
-       public alturaMaxima: number,
+       public altura_maxima: number,
        public clima: string,
-       public sustratoSiembra: string
+       public sustrato_siembra: string
     ){
 
     }
